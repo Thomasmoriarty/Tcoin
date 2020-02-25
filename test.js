@@ -2,8 +2,8 @@
 
 const { Blockchain, Transaction }  = require('./TcoinBlockchain');
 
-const Quay = require('elliptic').ec;
-const ec = new Quay('secp256k1');
+const EC = require('elliptic').ec;
+const ec = new EC('secp256k1');
 
 
 const myKey = ec.keyFromPrivate('4390e6084604d7421530e06ccd8980494dc2a9d319fd9c30a121d53ac5e1c1e3');
