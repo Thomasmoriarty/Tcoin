@@ -1,6 +1,6 @@
 const SHA256 = require('crypto-js/sha256'); //intialising the hashing package inside the variable sha256
 
-const Quay = require('elliptic').ec
+const EC = require('elliptic').ec
 const ec = new Quay('secp256k1');
 
 class Transaction {  
